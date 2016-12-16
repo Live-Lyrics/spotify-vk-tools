@@ -72,7 +72,7 @@ def main():
                 sets = api.audio.setBroadcast(audio=owner_audio)
                 print(songname, 'уже в статусе', sets)
             except IndexError:
-                print(songname, 'не найдеа')
+                print(songname, 'не найдена')
         time.sleep(1)
 
 
